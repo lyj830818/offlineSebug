@@ -1,6 +1,6 @@
 # 离线Sebug
 
-(https://raw.github.com/ChiChou/offlineSebug/master/screenshot.png)
+![image](https://raw.github.com/ChiChou/offlineSebug/master/screenshot.png)
 
 这是一个可以整站抓取SEBUG漏洞库的脚本，并支持保存漏洞信息中的外链为PDF快照。
 分为抓取和WEB展示两个组件。
