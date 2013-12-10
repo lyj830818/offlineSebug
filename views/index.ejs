@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sebug离线版</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="/js/jquery.js"></script>
+	<script type="text/javascript" src="/js/index.js"></script>
+</head>
+<body>
+	<nav>
+		<h1 class="title"><img src="/img/logo.png" alt="logo"><a href="/">Sebug 离线版</a></h1>
+		<form id="quick-search">
+			<input name="keyword" id="keyword" placeholder="搜索" autofocus="autofucus">
+			<button type="submit">搜索</button>
+		</form>
+		<ul>
+			<li>目录
+				<ul id="appdir">
+					<li><a href="#">#</a></li><li><a href="#">A</a></li><li><a href="#">B</a></li><li><a href="#">C</a></li><li><a href="#">D</a></li><li><a href="#">E</a></li><li><a href="#">F</a></li><li><a href="#">G</a></li><li><a href="#">H</a></li><li><a href="#">I</a></li><li><a href="#">J</a></li><li><a href="#">K</a></li><li><a href="#">L</a></li><li><a href="#">M</a></li><li><a href="#">N</a></li><li><a href="#">O</a></li><li><a href="#">P</a></li><li><a href="#">Q</a></li><li><a href="#">R</a></li><li><a href="#">S</a></li><li><a href="#">T</a></li><li><a href="#">U</a></li><li><a href="#">V</a></li><li><a href="#">W</a></li><li><a href="#">X</a></li><li><a href="#">Y</a></li><li><a href="#">Z</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="copyright">&copy; 2013, ChiChou</div>
+	</nav>
+	<div id="busy"><img src="/img/loading.gif"><h2>正在载入结果，请稍候...</h2></div>
+	<div id="main">
+		<div id="list">
+			<header><h2>{list.title}</h2></header>
+			<article>
+				<ul class="article-list">
+				</ul>
+			</article>
+			<footer>
+				<a data-insite="true" id="load-more" href="#">载入更多</a></footer>
+		</div>
+		<div id="article">
+			<header><h2 id="vul-title">{vul.title}</h2>
+				<div class="detail"><span id="vul-date">{vul.date}</span> 应用程序：<a data-insite="true" href="/app/{vul.appdir}" id="vul-appdir">{vul.appdir}</a>
+				</div>
+			</header>
+			<article id="vul-content"></article>
+		</div>
+	</div>
+	<footer></footer>
+</body>
+</html>

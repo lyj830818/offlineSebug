@@ -1,0 +1,16 @@
+{
+  "name" : "SebugOffline",
+  "version" : "0.0.1",
+  "description": "离线版Sebug",
+  "dependencies" : {
+    "express" : "3.x",
+    "jQuery" : "1.x",
+    "phantom" : "0.x",
+    "sqlite3" : "2.x",
+    "xmlhttprequest" : "1.6.x"
+  },
+  "author": {
+    "name": "ChiChou",
+    "url": "http://chichou.0ginr.com"
+  }
+}

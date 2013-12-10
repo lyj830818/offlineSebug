@@ -1,0 +1,23 @@
+{
+  "default": {
+    "log_level": 0,
+    "server": {
+      "scheme": "http",
+      "host": "localhost",
+      "port": 81
+    },
+    "db": {
+      "driver": "sqlite3",
+      "database": "./result/sebug.db"
+    },
+    "pdf": "./result/asset/",
+    "static": {
+      "/js": "/asset/js/",
+      "/css": "/asset/css/",
+      "/img": "/asset/img/"
+    }
+  },
+  "development": {
+    "log_level": 1
+  }
+}
